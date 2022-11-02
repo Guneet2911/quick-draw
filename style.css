@@ -22,3 +22,31 @@ body{
 #sketch_drawn{
     font-size:20px;
 }
+
+h1{
+    background-color: beige;
+}
+
+#show_sketch{
+    float:right;
+}
+
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+
+    from {box-shadow: 1px 1px 38px darkgreen;}
+    to {box-shadow: 1px 1px 38px yellow;}
+  
+  }
+
+  
